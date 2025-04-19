@@ -1,108 +1,108 @@
-
----
-
-### ✅ `README.md`
-
-```markdown
 # 🌾 Smart Farming Crop Yield Prediction Dashboard
 
-An interactive data visualization dashboard for analyzing and predicting crop yield based on various agricultural inputs. Built using **PySpark**,**Streamlit**, **Plotly**, and **Pandas**, and **Unified Python Packaging (uv)**.
+An interactive dashboard for analyzing and predicting crop yield using agricultural input data. Built with **PySpark**, **Streamlit**, **Plotly**, **Pandas**, and packaged with **Unified Python Packaging (uv)**.
 
 ---
 
 ## 🚀 Features
 
-- Predict crop yield using **Linear Regression** and **Random Forest**
-- Visualize actual vs predicted yield and residuals
-- Interactive charts and correlation heatmaps
-- View top contributing features
-- Apply filters and dropdowns for better data exploration
-- Clean, responsive Streamlit layout
+- 📈 Predict crop yield using **Linear Regression** and **Random Forest**
+- 🧮 Visualize **actual vs. predicted yield** and **residuals**
+- 📊 Interactive charts, correlation heatmaps, and feature importance
+- 🧩 Dynamic filters and dropdowns for granular data exploration
+- 🧼 Clean, responsive layout with a smooth UX using Streamlit
 
 ---
 
 ## 📷 Screenshots
 
-| 📊 Actual vs Predicted | 🌿 Nitrogen vs Yield |
-|------------------------|----------------------|
-| ![scatter](assets/acutal_VS_prediction.png) | ![nitrogen](assets/NitroVSyeild.png) |
+| Actual vs Predicted |
+|---------------------|
+
+![Actual vs Predicted](https://github.com/Aditya-jaiswal07972/Spark-Smart-Farm-yield-prediction/blob/main/assets/acutal_VS_prediction.png?raw=true)
+
+| Nitrogen vs Yield |
+|-------------------|
+![Nitrogen vs Yield](https://github.com/Aditya-jaiswal07972/Spark-Smart-Farm-yield-prediction/blob/06471835e1fd6fe408cee2daaae87c53ec48b176/assets/NitroVSyeild.png)
 
 ---
+
 ## 🗂️ Project Structure
 
 ```
 smart-farm-predic/
 │
-├── proj.py                  # Main Streamlit app logic
-├── main.py                  # Optional CLI or alternate entry point
-├── README.md
+├── proj.py                  # Main Streamlit dashboard logic
+├── main.py                  # Optional entry point (can run proj.py)
 ├── smart_farming_crop_yield_prediction.csv
-├── pyproject.toml           # Dependency and project metadata (uv)
+├── pyproject.toml           # Project metadata and dependencies (uv)
 ├── uv.lock                  # Locked dependencies (auto-generated)
-├── .venv/                   # In-project virtual environment (optional)
-└── assets/                  # Charts and images for UI + README
+├── .venv/                   # Virtual environment (optional)
+├── assets/                  # Images and visual assets
+└── README.md
 ```
 
 ---
 
-## 🛠️ How to Run
+## 🛠️ Getting Started
 
-Make sure you have Python `>=3.10` and [`uv`] installed.
+Make sure Python `>=3.10` and [`uv`](https://github.com/astral-sh/uv) are installed.
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Aditya-jaiswal07972/Spark-Smart-Farm-yield-prediction.git
 cd smart-farm-predic
 ```
 
-### 2. Install dependencies using `uv`
+### 2. Install Dependencies with `uv`
+
+Using a virtual environment:
 
 ```bash
-uv venv                     # Creates a `.venv` virtual environment inside the project
-uv pip install              # Installs from pyproject.toml / uv.lock
+uv venv
+uv pip install
 ```
 
-Or install globally without virtualenv:
+Or install globally:
 
 ```bash
 uv pip install --system
 ```
 
-### 3. Run the Streamlit app
+### 3. Run the App
 
 ```bash
-# Option 1: Directly run proj.py
+# Option 1: Directly run the Streamlit app
 streamlit run proj.py
 
-# Option 2: Run main.py which calls proj.py
+# Option 2: Use the CLI entry point
 python main.py
 ```
 
 ---
 
-## 📦 Key Dependencies
+## 📦 Tech Stack
 
-Declared in `pyproject.toml`, including:
+All dependencies are managed via `pyproject.toml`. Key packages:
 
-- `streamlit`
-- `pyspark`
-- `pandas`
-- `plotly-express`
-- `seaborn`
-- `matplotlib`
+- `streamlit` – for building the interactive dashboard
+- `pyspark` – for data processing at scale
+- `pandas`, `plotly-express`, `seaborn`, `matplotlib` – for analysis and visualization
 
 ---
 
 ## 👨‍🌾 Author
 
-Built with ❤️ by **Aditya Jaiswal** ([@Aditya-jaiswal07972](https://github.com/Aditya-jaiswal07972))
+Made with ❤️ by [**Aditya Jaiswal**](https://github.com/Aditya-jaiswal07972)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License. Feel free to use and modify!
-```
+Released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to fork, use, and contribute!
 
 ---
+```
+
+Let me know if you’d like a badge section (e.g. `build | python | license`) or if you want to deploy this to something like Streamlit Cloud or Hugging Face Spaces — happy to help!

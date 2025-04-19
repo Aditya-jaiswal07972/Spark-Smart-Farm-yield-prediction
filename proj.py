@@ -158,7 +158,7 @@ def run_dashboard():
 
     # Footer
     st.markdown("---")
-    st.markdown("Made with using Streamlit, PySpark, and Plotly. — **by Aditya**")
+    st.markdown("Made with using Streamlit, PySpark, and Plotly.           — **by Aditya**")
 
 if __name__ == "__main__":
     run_dashboard()

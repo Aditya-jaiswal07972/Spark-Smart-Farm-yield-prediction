@@ -18,7 +18,6 @@ An interactive dashboard for analyzing and predicting crop yield using agricultu
 
 | Actual vs Predicted |
 |---------------------|
-
 ![Actual vs Predicted](https://github.com/Aditya-jaiswal07972/Spark-Smart-Farm-yield-prediction/blob/main/assets/acutal_VS_prediction.png?raw=true)
 
 | Nitrogen vs Yield |
@@ -96,13 +95,6 @@ All dependencies are managed via `pyproject.toml`. Key packages:
 
 Made with ❤️ by [**Aditya Jaiswal**](https://github.com/Aditya-jaiswal07972)
 
----
-
 ## 📄 License
 
 Released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to fork, use, and contribute!
-
----
-```
-
-Let me know if you’d like a badge section (e.g. `build | python | license`) or if you want to deploy this to something like Streamlit Cloud or Hugging Face Spaces — happy to help!

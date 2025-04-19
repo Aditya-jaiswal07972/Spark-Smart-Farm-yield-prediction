@@ -1,0 +1,12 @@
+[project]
+name = "smart-farm-predic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "plotly-express>=0.4.1",
+    "pyspark>=3.5.5",
+    "seaborn>=0.13.2",
+    "streamlit>=1.44.1",
+]
